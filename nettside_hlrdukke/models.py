@@ -16,7 +16,7 @@ class SensorData(models.Model):
     
 
     def __str__(self):
-         return "data_vfuvkdiene: {}, sensorene: {} (enhet), tidspunktet: {}." .format(self.data, self.sensor_id, self.timestamp)
+         return "data_verdiene: {}, sensorene: {} (enhet), tidspunktet: {}." .format(self.data, self.sensor_id, self.timestamp)
 
 
 
